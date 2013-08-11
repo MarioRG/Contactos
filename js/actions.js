@@ -19,7 +19,7 @@ function listarContactos(){
         $('#lista').html('');
         for(1=0;i<contacts.length;i++){
         $('<li class="forward"><a href="Tel://'+contacts[i].phoneNumbers[0].value+'">'
-          +contacts[i].name.formatted+'</a></li>').appendTo(('#lista');
+          +contacts[i].name.formatted+'</a></li>').appendTo('#lista');
         }
     };
     
